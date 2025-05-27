@@ -3,7 +3,7 @@
 // ATENÇÃO: Esta URL será a URL do seu backend no Render após o deploy!
 // Durante o desenvolvimento local, ela pode ser 'http://localhost:3000'
 // Após o deploy no Render, ela será algo como 'https://seunome-leitura-api.onrender.com'
-const API_BASE_URL = 'http://localhost:3000'; // <<<<<<< MUDAR ISSO APÓS O DEPLOY DO BACKEND NO RENDER!
+const API_BASE_URL = 'https://leitura.onrender.com'; // <<<<<<< MUDAR ISSO APÓS O DEPLOY DO BACKEND NO RENDER!
 
 document.addEventListener('DOMContentLoaded', () => {
     const formLivro = document.getElementById('form-livro');
