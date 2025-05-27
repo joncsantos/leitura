@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Plano de Leitura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Plano de Leitura</h1>
+    </header>
+
+    <main>
+        <section id="adicionar-livro">
+            <h2>Adicionar Novo Livro</h2>
+            <form id="form-livro">
+                <input type="text" id="titulo" placeholder="Título do Livro" required>
+                <input type="text" id="autor" placeholder="Autor (opcional)">
+                <input type="number" id="totalPaginas" placeholder="Total de Páginas" min="1" required>
+                <button type="submit">Adicionar Livro</button>
+            </form>
+        </section>
+
+        <section id="lista-livros">
+            <h2>Meus Livros</h2>
+            <div id="livros-container">
+                </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
